@@ -23,7 +23,21 @@ int main() {
    // 7. Delete the Rectangle Object from memory
    // 8. Delete the Circle Object from memory
   
-  
+// ex 2
+
+  Rectangle *r;
+  r = new Rectangle(length , width);
+
+
+   Circle * c;
+   c = new Circle(radius);
+
+   r -> display();
+   c -> display();
+
+   delete r; 
+   delete c; 
+
    // ============ DO NOT CHANGE THE CODE BELOW ===================
    cout << "End of Program" << endl;
   
